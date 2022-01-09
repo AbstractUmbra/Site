@@ -1,0 +1,7 @@
+{% extends "root" %} {% block title %} {{ title | safe }} {% endblock title %} {% block head %} {{ super() }} {% endblock head %} {% block body %}
+<div class="page">
+    {{ text | safe }} {% if song %}
+    <iframe src="{{ song }}" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media">
+  </iframe> {% endif %}
+</div>
+{{ super() }} {% endblock body %}

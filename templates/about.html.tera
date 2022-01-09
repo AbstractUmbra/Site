@@ -1,0 +1,5 @@
+{% extends "root" %} {% block title %} About Me {% endblock title %} {% block body %}
+<div class="about">
+    {{ text | safe }}
+</div>
+{{ super() }} {% endblock body %}

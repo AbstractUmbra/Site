@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <title>{% block title %}{% endblock title %}- AbstractUmbra</title>
+    <meta name="description" content="A small site for random ravings" />
+    <meta name="author" content="AbstractUmbra" />
+    <meta name="robots" content="noindex" />
+
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" /> {% endblock head %}
+</head>
+
+<body>
+    {% block body %}
+    <footer>
+        <nav class="footer">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/links">Socials</a></li>
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/about-me">About Me</a></li>
+            </ul>
+        </nav>
+    </footer>
+    {% endblock body%}
+</body>
+
+</html>

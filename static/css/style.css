@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Inconsolata";
+    src: url("/fonts/Inconsolata-Regular.ttf");
+}
+
+:root {
+    --bg-color: #091f2c;
+    --main-color: #f5b1cc;
+    --caret-color: #93e8d3;
+    --sub-color: #93e8d3;
+    --text-color: #a288d9;
+    --error-color: #e45c96;
+    --error-extra-color: #e45c96;
+    --colorful-error-color: #00b398;
+    --colorful-error-extra-color: #e45c96;
+    border-color: var(--sub-color);
+    background-color: var(--bg-color);
+    caret-color: var(--caret-color);
+    color: var(--text-color);
+    font-family: sans-serif !important;
+}
+
+h1 {
+    border-bottom: 0.1em var(--sub-color) solid;
+    text-align: center;
+}
+
+a:link {
+    color: var(--sub-color);
+}
+
+a:visited {
+    color: var(--error-color);
+}
+
+div.index {
+    text-align: center;
+}
+
+div.index p,
+div.pages,
+div.page p,
+div.pages p {
+    margin: 3rem 5rem;
+}
+
+div.about h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--colorful-error-extra-color);
+}
+
+div.about p {
+    margin: 3rem 5rem;
+}
+
+div.about ul {
+    margin: 3rem 5rem;
+}
+
+div.error {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+div.error h2 {
+    text-align: left;
+    /* border-bottom: 0.01em var(--sub-color) solid; */
+    color: var(--sub-color);
+}
+
+div.error h2 a {
+    text-decoration: none;
+}
+
+div.page iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+div.socials h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: var(--colorful-error-extra-color);
+}
+
+div.socials table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-color: var(--main-color);
+    border: 1px;
+    border-spacing: 2rem;
+}
+
+div.socials table th {
+    font-size: x-large;
+    color: var(--caret-color);
+}
+
+footer nav.footer {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer nav.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 1px;
+    position: relative;
+}
+
+footer ul li:not(:last-child)::after {
+    content: "";
+    border: 1px solid var(--sub-color);
+    border-width: 1px 1px 0 0;
+    position: relative;
+    right: -4px;
+    height: 100%;
+    margin: 0 0.5em;
+}
+
+p del {
+    text-decoration-color: var(--caret-color);
+}
+
+div.socials table thead {
+    display: none;
+}

@@ -1,0 +1,7 @@
+{% extends "root" %} {% block title %} Socials {% endblock title %} {% block body %}
+<h1>I don't like social media but...</h1>
+<div class="socials">
+    <h2>if you really wanna find me</h2>
+    {{ text | safe }}
+</div>
+{{ super() }} {% endblock body %}

@@ -1,0 +1,11 @@
+{% extends "root" %}
+{% block head %}{{ super() }}{% endblock head %}
+{% block body %}
+    <div class="error">
+        <h2>
+            <a href="/">{{ title }}</a>
+        </h2>
+        <p>{{ message }}</p>
+    </div>
+    {{ super() }}
+{% endblock body %}
