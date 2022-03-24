@@ -5,7 +5,6 @@ mod about_me;
 mod blog;
 mod errors;
 mod socials;
-mod botw;
 
 use std::collections::HashMap;
 
