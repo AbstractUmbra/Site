@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "Site",
+            "cwd": "/home/penumbra/projects/personal/site/",
+            "script": "app",
+            "autorestart": true,
+            "max_restart": 5,
+            "instances": 1,
+            "env": {
+                "ROCKET_ENV": "prod"
+            },
+            "log_date_format": "DD-MM-YYYY HH:mm:ss"
+        }
+    ]
+}

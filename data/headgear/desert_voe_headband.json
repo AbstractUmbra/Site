@@ -1,0 +1,23 @@
+{
+    "tier1": {
+        "white_chuchu_jelly": 3
+    },
+    "tier2": {
+        "ice_keese_wing": 3,
+        "white_chuchu_jelly": 5
+    },
+    "tier3": {
+        "ice_keese_wing": 8,
+        "icy_lizalfos_tail": 3
+    },
+    "tier4": {
+        "icy_lizalfos_tail": 10,
+        "sapphire": 5
+    },
+    "totals": {
+        "white_chuchu_jelly": 8,
+        "ice_keese_wing": 11,
+        "icy_lizalfos_tail": 13,
+        "sapphire": 5
+    }
+}

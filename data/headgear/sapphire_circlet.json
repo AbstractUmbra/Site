@@ -1,0 +1,23 @@
+{
+    "tier1": {
+        "flint": 3,
+        "sapphire": 2
+    },
+    "tier2": {
+        "flint": 3,
+        "sapphire": 4
+    },
+    "tier3": {
+        "sapphire": 6,
+        "star_fragment": 1
+    },
+    "tier4": {
+        "sapphire": 10,
+        "star_fragment": 1
+    },
+    "totals": {
+        "flint": 6,
+        "sapphire": 22,
+        "star_fragment": 2
+    }
+}

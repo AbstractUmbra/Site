@@ -1,0 +1,27 @@
+{
+    "tier1": {
+        "ancient_screw": 5,
+        "ancient_spring": 5
+    },
+    "tier2": {
+        "ancient_gear": 10,
+        "ancient_spring": 15
+    },
+    "tier3": {
+        "ancient_core": 5,
+        "ancient_shaft": 15
+    },
+    "tier4": {
+        "giant_ancient_core": 2,
+        "star_fragment": 1
+    },
+    "totals": {
+        "ancient_screw": 5,
+        "ancient_spring": 20,
+        "ancient_gear": 10,
+        "ancient_core": 5,
+        "ancient_shaft": 15,
+        "giant_ancient_core": 2,
+        "star_fragment": 1
+    }
+}

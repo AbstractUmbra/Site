@@ -1,0 +1,22 @@
+{
+    "tier1": {
+        "flint": 3,
+        "opal": 5
+    },
+    "tier2": {
+        "flint": 3,
+        "opal": 8
+    },
+    "tier3": {
+        "flint": 3,
+        "opal": 16
+    },
+    "tier4": {
+        "flint": 3,
+        "opal": 20
+    },
+    "total": {
+        "flint": 12,
+        "opal": 49
+    }
+}

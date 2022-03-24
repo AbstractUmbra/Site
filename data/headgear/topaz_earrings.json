@@ -1,0 +1,23 @@
+{
+    "tier1": {
+        "flint": 3,
+        "topaz": 2
+    },
+    "tier2": {
+        "flint": 3,
+        "topaz": 4
+    },
+    "tier3": {
+        "star_fragment": 1,
+        "topaz": 6
+    },
+    "tier4": {
+        "star_fragment": 1,
+        "topaz": 10
+    },
+    "totals": {
+        "flint": 6,
+        "topaz": 22,
+        "star_fragment": 2
+    }
+}

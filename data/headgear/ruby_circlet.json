@@ -1,0 +1,23 @@
+{
+    "tier1": {
+        "flint": 3,
+        "ruby": 2
+    },
+    "tier2": {
+        "flint": 3,
+        "ruby": 4
+    },
+    "tier3": {
+        "ruby": 6,
+        "star_fragment": 1
+    },
+    "tier4": {
+        "ruby": 10,
+        "star_fragment": 1
+    },
+    "totals": {
+        "flint": 6,
+        "ruby": 22,
+        "star_fragment": 2
+    }
+}
