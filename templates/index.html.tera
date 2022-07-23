@@ -2,9 +2,9 @@
 <h1>Oh, you're here.</h1>
 <div class="index">
     <p>
-        I have absolutely no idea why I decided to do this, but I'm actually having fun in doing so. I wonder what else I can add.
+        I have absolutely no idea why I decided to do this, but I'm actually having fun in doing so. I wonder what else
+        I can add.
     </p>
-    <p>So far I have a <a href="/blog/">blog</a> that is just my ravings.</p>
-    <p>Or perhaps you want to see my <a href="/links/">socials</a>?</p>
+    <p>Perhaps you want to see my <a href="/links/">socials</a>?</p>
 </div>
 {{ super() }} {% endblock body %}

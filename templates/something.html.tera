@@ -1,0 +1,13 @@
+{% extends "root" %} {% block title %} No idea what this is {% endblock title %} {% block body %}
+<h1>I really don't know why this is here.</h1>
+<div class="pages">
+    <ul>
+        {% for file in files %}
+        <li>
+            <a href={{ "/something/" ~file.0}}>{{file.2 | date(format="%d-%m-%Y %H:%M:%S", timezone="UTC") }} ::
+                {{file.1}}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{{ super() }} {% endblock body %}

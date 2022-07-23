@@ -2,9 +2,9 @@
 extern crate rocket;
 
 mod about_me;
-mod blog;
 mod errors;
 mod socials;
+mod something;
 
 use std::collections::HashMap;
 
@@ -22,7 +22,7 @@ async fn main() {
     let _ = rocket::build()
         .mount("/", routes![index])
         .mount("/", FileServer::from(relative!("static")))
-        .mount("/blog", routes![blog::page, blog::index])
+        .mount("/something", routes![something::page, something::index])
         .mount("/links", routes![socials::index])
         .mount("/about-me", routes![about_me::about])
         .register("/", catchers![errors::not_found, errors::internal_death])

@@ -75,7 +75,7 @@ fn get_pages() -> Vec<(PathBuf, String, u64)> {
 pub async fn index() -> Option<Template> {
     let files = get_pages();
     let context = Context { files };
-    Some(Template::render("blog", context))
+    Some(Template::render("something", context))
 }
 
 #[get("/pages/<file..>")]
