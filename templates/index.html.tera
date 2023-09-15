@@ -7,4 +7,5 @@
     </p>
     <p>Perhaps you want to see my <a href="/links/">socials</a>?</p>
 </div>
+<a href="/something" class="hidden-as-fuck">Blog</a>
 {{ super() }} {% endblock body %}

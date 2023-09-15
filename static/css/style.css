@@ -148,3 +148,11 @@ p del {
 div.socials table thead {
     display: none;
 }
+
+a.hidden-as-fuck {
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+    font-size: 150%;
+    color: var(--bg-color);
+}

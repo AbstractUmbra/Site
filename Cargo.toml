@@ -1,5 +1,5 @@
 [package]
-name = "abstractumbra-site"
+name = "site"
 version = "0.1.0"
 authors = ["Alex Nørgaard <Umbra@AbstractUmbra.xyz>"]
 edition = "2018"
