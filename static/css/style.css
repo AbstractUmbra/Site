@@ -149,10 +149,17 @@ div.socials table thead {
     display: none;
 }
 
-a.hidden-as-fuck {
-    position: absolute;
-    bottom: 40px;
-    right: 10px;
-    font-size: 150%;
-    color: var(--bg-color);
+/* CSS */
+#invisible-blog-link {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 2rem;
+    opacity: 0;
+    z-index: 999;
+}
+
+/* If you don't want cursor to change */
+#invisible-blog-link:hover {
+    cursor: default;
 }

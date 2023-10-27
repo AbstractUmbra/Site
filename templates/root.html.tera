@@ -24,6 +24,7 @@
             </ul>
         </nav>
     </footer>
+    <a href="/something" id="invisible-blog-link">Blog</a>
     {% endblock body%}
 </body>
 
