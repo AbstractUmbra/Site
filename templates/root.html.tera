@@ -24,7 +24,7 @@
             </ul>
         </nav>
     </footer>
-    <a href="/something" id="invisible-blog-link">Blog</a>
+    <span onclick="location.href='/something';" id="invisible-blog-link">Blog</span>
     {% endblock body%}
 </body>
 
