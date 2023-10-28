@@ -11,14 +11,14 @@ services:
     networks:
       main:
     volumes:
-      - ./misc/:/usr/local/bin/misc/:ro
-      - ./pages/:/usr/local/bin/pages/:ro
-      - ./songs/:/usr/local/bin/songs/:ro
-      - ./static/:/usr/local/bin/static/:ro
-      - ./templates/:/usr/local/bin/templates/:ro
-      - ./Rocket.toml:/usr/local/bin/Rocket.toml:ro
-
-
+      - ./misc/:/bin/app/misc/:ro
+      - ./pages/:/bin/app/pages/:ro
+      - ./songs/:/bin/app/songs/:ro
+      - ./static/:/bin/app/static/:ro
+      - ./templates/:/bin/app/templates/:ro
+      - ./Rocket.toml:/bin/app/Rocket.toml:ro
+      - ./Cargo.toml:/bin/app/Cargo.toml:ro
+      - ./Cargo.lock:/bin/app/Cargo.lock:ro
 
 networks:
   main:
