@@ -1,7 +1,5 @@
-@font-face {
-    font-family: "Inconsolata";
-    src: url("/fonts/Inconsolata-Regular.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
 :root {
     --bg-color: #091f2c;
@@ -17,11 +15,17 @@
     background-color: var(--bg-color);
     caret-color: var(--caret-color);
     color: var(--text-color);
-    font-family: sans-serif !important;
+    font-family: 'Inconsolata', 'Noto Sans JP', monospace;
 }
 
 h1 {
-    border-bottom: 0.1em var(--sub-color) solid;
+    border-bottom: 0.1rem var(--sub-color) solid;
+    text-align: center;
+}
+
+h4 {
+    justify-content: center;
+    text-decoration: solid;
     text-align: center;
 }
 
@@ -41,7 +45,7 @@ div.index p,
 div.pages,
 div.page p,
 div.pages p {
-    margin: 3rem 5rem;
+    margin: 1rem;
 }
 
 div.about h2 {

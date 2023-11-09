@@ -8,9 +8,11 @@
     <meta name="description" content="A small site for random ravings" />
     <meta name="author" content="AbstractUmbra" />
     <meta name="robots" content="noindex" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="icon" type="image/png" href="/images/favicon.png" /> {% endblock head %}
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    {% endblock head %}
 </head>
 
 <body>
@@ -25,7 +27,7 @@
         </nav>
     </footer>
     <span onclick="location.href='/something';" id="invisible-blog-link">Blog</span>
-    {% endblock body%}
+    {% endblock body %}
 </body>
 
 </html>
