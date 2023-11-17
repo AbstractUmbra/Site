@@ -6,4 +6,4 @@
 | [Twitter](https://twitter.com/AbstractUmbra)                    |
 | [Twitter (NSFW)](https://twitter.com/AkaneRiku_)                |
 | [Pronouns.page](https://en.pronouns.page/@AbstractUmbra)        |
-| `hyliantwink` on Discord, feel free to reach out.               |
+| [Discord](https://discord.com/users/155863164544614402)         |
